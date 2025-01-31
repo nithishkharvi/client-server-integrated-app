@@ -1,0 +1,13 @@
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: translateY(-10px);
+}
